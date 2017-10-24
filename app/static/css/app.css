@@ -1,0 +1,201 @@
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: darkturquoise;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: darkturquoise;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(225,225,225,1);
+}
+
+.navbar-default .navbar-logo {
+    color: #00ABD1;
+    font-weight: 900;
+    padding: 0;
+}
+
+.navbar-default .navbar-logo:hover,
+.navbar-default .navbar-logo:focus,
+.navbar-default .navbar-logo:active,
+.navbar-default .navbar-logo.active {
+    text-decoration: none; 
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(225,225,225,0.85);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: darkturquoise;
+    background-color: darkturquoise;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: darkturquoise;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: darkturquoise;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: white;
+    background-color: darkturquoise;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: darkturquoise;
+}
+
+#nav-resume {
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    color: white;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-logo {
+        font-size: 2em;
+        width: 10em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: rgba(225,225,225,0.85);
+    }
+
+    .navbar-default.navbar-shrink .navbar-logo {
+        font-size: 1.5em;
+    }
+}
+
+#about-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url("../images/about.png");
+    background-size: cover;
+}
+
+#about {
+    float: right;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 7%;
+    top: 20px;
+    background-color: rgba(255, 153, 51, 0.9);
+    color: white;
+    padding: 4rem;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 4em;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+#about-link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: 5px;
+    transition: .6s background; 
+    border: none; 
+    margin: 1rem auto;
+    text-align: center;
+}
+
+#about-link:hover{
+    background:rgba(0,0,0,1);
+}
+
+.page-header {
+    margin-top: 1.5em;
+}
+
+.page-header {
+    text-transform: uppercase;
+}
+
+#technologies-list li {
+    list-style-type: none;
+}
+
+.list-heading {
+    text-transform: uppercase;
+}
+
+.error h1, .error p{
+    text-align:center;
+}
+
+.error h1{
+    font-size:64px;
+    margin:75px 0 50px;
+  }
+
+ .error p{
+    font-size:24px;
+    margin:15px 0;
+  }

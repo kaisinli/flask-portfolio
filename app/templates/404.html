@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block main %} {% block title %}Page Not Found{% endblock %} {% block css %}
+
+{% endblock %}
+
+<div class="error">
+  <h1 class="page-header">404</h1>
+  <p>This page doesn't exist. Should Kaisin have this page? <a href = {{ url_for('contact') }}>Let her know!</a></p>
+</div>
+
+{% endblock %}
