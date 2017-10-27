@@ -25,7 +25,7 @@ a.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: rgba(225,225,225,1);
+    background-color: rgba(225,225,225,0.6);
 }
 
 .navbar-default .navbar-logo {
@@ -41,9 +41,6 @@ a.active {
     text-decoration: none; 
 }
 
-.navbar-default .navbar-collapse {
-    border-color: rgba(225,225,225,0.85);
-}
 
 .navbar-default .navbar-toggle {
     border-color: darkturquoise;
@@ -89,6 +86,13 @@ a.active {
     color: white;
 }
 
+#logo-name{
+    height: 1.5em;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -113,7 +117,7 @@ a.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: rgba(225,225,225,0.85);
+        background-color: rgba(225,225,225,0.6);
     }
 
     .navbar-default.navbar-shrink .navbar-logo {
@@ -135,12 +139,10 @@ a.active {
 
 #about {
     float: right;
-    max-width: 500px;
+    max-width: 600px;
     min-width: 300px;
-    margin: 7%;
-    top: 20px;
-    background-color: rgba(255, 153, 51, 0.9);
-    color: white;
+    margin: 100px;
+    background-color: rgba(105,105,105, 0.9);
     padding: 4rem;
 }
 
@@ -148,17 +150,21 @@ h1{
     margin: 0;
     margin-bottom: 15px;
     font-size: 4em;
+    color:white
 }
 
 #about p{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
 }
 
 #about-link{
     display: block;
     color: white;
     text-decoration: none;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.7);
     padding: 5px;
     transition: .6s background; 
     border: none; 
@@ -192,10 +198,11 @@ h1{
 
 .error h1{
     font-size:64px;
-    margin:75px 0 50px;
   }
 
  .error p{
     font-size:24px;
     margin:15px 0;
   }
+
+
