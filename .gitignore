@@ -1,6 +1,5 @@
 # Files to ignore when adding and committing files to a repository
 .DS_Store
-Thumbs.db
 
 *.py[cod]
 *$py.class
@@ -8,3 +7,6 @@ Thumbs.db
 # virtualenv
 .venv/
 venv/
+
+#node
+node_modules
