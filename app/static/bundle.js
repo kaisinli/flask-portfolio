@@ -74,7 +74,7 @@ module.exports = __webpack_require__(1);
 /* 1 */
 /***/ (function(module, exports) {
 
-/* Add your Application JavaScript */
+throw new Error("Module build failed: SyntaxError: Unexpected token (12:4)\n\n\u001b[0m \u001b[90m 10 | \u001b[39m\u001b[90m//routes\u001b[39m\n \u001b[90m 11 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m (\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 | \u001b[39m    \u001b[33m<\u001b[39m\u001b[33mRouter\u001b[39m history\u001b[33m=\u001b[39m{hashHistory}\u001b[33m>\u001b[39m\n \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 | \u001b[39m      \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m'/'\u001b[39m component\u001b[33m=\u001b[39m{\u001b[33mMain\u001b[39m}\u001b[33m>\u001b[39m\n \u001b[90m 14 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mIndexRoute\u001b[39m component\u001b[33m=\u001b[39m{\u001b[33mAbout\u001b[39m}\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 15 | \u001b[39m        \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m'/portfolio'\u001b[39m component\u001b[33m=\u001b[39m{\u001b[33mPortfolio\u001b[39m} \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n");
 
 /***/ })
 /******/ ]);

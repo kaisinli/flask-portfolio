@@ -1,25 +1,21 @@
-
-module.exports = {
-    entry: [
-        './app/js/app.jsx'
-    ],
+const webpack = require('webpack');
+const config = {
+    entry: __dirname + '/app/js/index.jsx',
+    output: {
+        path: __dirname + '/dist',
+        filename: 'bundle.js',
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.css']
+    },
     module: {
         rules: [
             {
-                test: /\.jsx$/,
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'babel-loader',
-                }
-            },
-            { 
-                test: /\.css$/, 
-                use: [ 'style-loader', 'css-loader' ] 
-            },
+                test: /\.jsx?/,
+                exclude: /node_modules/,
+                use: 'babel-loader'
+            }
         ]
-    },
-    output: {
-        filename: 'bundle.js',
-        path: __dirname + '/app/static'
     }
-}
+};
+module.exports = config;
