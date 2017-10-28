@@ -14,10 +14,12 @@ class Navbar extends Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-logo page-scroll" href="">
-                            <img src="app/static/images/icon.png" />
-                            <img id="logo-name" src="./static/images/logoname.png" />
-                        </a>
+                        <div className="navbar-logo page-scroll" >
+                            <Link to='/'>
+                                <img src="public/images/icon.png" />
+                                <img id="logo-name" src="public/images/logoname.png" />
+                            </Link>
+                        </div>
                     </div>
 
                     <div className="collapse navbar-collapse" id="navbar-in-collapse">
@@ -25,16 +27,23 @@ class Navbar extends Component {
                             <li className="hidden active">
                                 <a href="#page-top"></a>
                             </li>
-                            <li className="">
-                                Portfolio
-                </li>
-                            <li className="">
-                                <a href="#blog">Blog</a>
+                            <li >
+                                <Link to='/portfolio'>
+                                    Portfolio
+                                </ Link>
                             </li>
-                            <li className="">
-                                Contact
-                </li>
-                            <li className="">
+                            <li>
+                                <Link to='/blog'>
+                                    Blog
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link to='/contact'>
+                                    Contact
+                                </ Link>
+                            </li>
+                            <li>
                                 <a id="nav-resume" href="https://goo.gl/P3RgDt" target="blank">Resume</a>
                             </li>
                         </ul>

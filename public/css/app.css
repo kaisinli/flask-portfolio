@@ -178,10 +178,8 @@ h1{
 
 .page-header {
     margin-top: 1.5em;
-}
-
-.page-header {
     text-transform: uppercase;
+    color: black
 }
 
 #technologies-list li {

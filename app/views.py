@@ -6,16 +6,6 @@ from flask import Flask, render_template
 def index():
     return render_template("index.html")
 
-@app.route('/portfolio')
-def portfolio():
-    return render_template('portfolio.html')
-
-
-@app.route('/contact', methods=['POST', 'GET'])
-def contact():
-    return render_template('contact.html')
-
-
 ###
 # The functions below should be applicable to all Flask apps.
 ###
