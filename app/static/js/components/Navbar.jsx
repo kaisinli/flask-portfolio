@@ -14,8 +14,8 @@ class Navbar extends Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-logo page-scroll" href="{{ url_for('home') }}">
-                            <img src="./static/images/icon.png" />
+                        <a className="navbar-logo page-scroll" href="">
+                            <img src="app/static/images/icon.png" />
                             <img id="logo-name" src="./static/images/logoname.png" />
                         </a>
                     </div>

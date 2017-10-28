@@ -1,8 +1,8 @@
 {
   "name": "flask-portfolio",
   "version": "1.0.0",
-  "description": "A Flask Application that demonstrates Flask-WTF and Flask-SQLAlchemy using a SQLite database.",
-  "main": "index.js",
+  "description": "Flask-React Portfolio app.",
+  "main": "run.py",
   "scripts": {
     "build": "webpack -p --progress --config webpack.config.js",
     "dev-build": "webpack --progress -d --config webpack.config.js",

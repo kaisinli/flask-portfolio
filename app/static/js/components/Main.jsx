@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
 import Navbar from './Navbar'
 
-class Main extends Component {
+export default class Main extends Component {
     render() {
         return (
             <div>
@@ -12,6 +11,3 @@ class Main extends Component {
         );
     }
 }
-
-export default Main;
-
