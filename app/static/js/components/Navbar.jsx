@@ -24,9 +24,6 @@ class Navbar extends Component {
 
                     <div className="collapse navbar-collapse" id="navbar-in-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li className="hidden active">
-                                <a href="#page-top"></a>
-                            </li>
                             <li >
                                 <Link to='/portfolio'>
                                     Portfolio
@@ -42,6 +39,16 @@ class Navbar extends Component {
                                 <Link to='/contact'>
                                     Contact
                                 </ Link>
+                            </li>
+                            <li>
+                                <a href="https://github.com/kaisinli/" id="fa-icon" target="blank">
+                                    <i className="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/kaisin-li/" id="fa-icon" target="blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
                             </li>
                             <li>
                                 <a id="nav-resume" href="https://goo.gl/P3RgDt" target="blank">Resume</a>

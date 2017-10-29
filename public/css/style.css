@@ -5,27 +5,15 @@ body, html {
 }
 
 a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover,{
     outline: 0;
-}
-
-a {
     color: darkturquoise;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: darkturquoise;
+    text-decoration: none;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: rgba(225,225,225,0.6);
+    background-color: white;
 }
 
 .navbar-default .navbar-logo {
@@ -35,9 +23,7 @@ a.active {
 }
 
 .navbar-default .navbar-logo:hover,
-.navbar-default .navbar-logo:focus,
-.navbar-default .navbar-logo:active,
-.navbar-default .navbar-logo.active {
+.navbar-default .navbar-logo:focus,{
     text-decoration: none; 
 }
 
@@ -51,8 +37,7 @@ a.active {
     background-color: white;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover {
     background-color: darkturquoise;
 }
 
@@ -60,30 +45,28 @@ a.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: black;
+    color: #383838;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover {
     outline: 0;
     color: darkturquoise;
 }
 
 .navbar-default .navbar-nav>.active>a {
     color: white;
-    background-color: darkturquoise;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: white;
-    background-color: darkturquoise;
 }
 
 #nav-resume {
     background-color: #bfbfbf;
     border-radius: 5px;
     color: white;
+    margin-left: 6px;
 }
 
 #logo-name{
@@ -116,8 +99,8 @@ a.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: rgba(225,225,225,0.6);
+        padding: 5px 0;
+        background-color: rgba(225,225,225,0.85);
     }
 
     .navbar-default.navbar-shrink .navbar-logo {
@@ -129,9 +112,9 @@ a.active {
     position: fixed;
     top: 50%;
     left: 50%;
+    z-index: 1;
     min-width: 100%;
     min-height: 100%;
-    z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-image: url("../images/about.png");
     background-size: cover;
@@ -144,6 +127,7 @@ a.active {
     margin: 100px;
     background-color: rgba(105,105,105, 0.9);
     padding: 4rem;
+    overflow-y: scroll;
 }
 
 h1{
@@ -163,13 +147,13 @@ h1{
 #about-link{
     display: block;
     color: white;
-    text-decoration: none;
     background:rgba(0,0,0,0.7);
     padding: 5px;
     transition: .6s background; 
     border: none; 
     margin: 1rem auto;
     text-align: center;
+    text-decoration: none;
 }
 
 #about-link:hover{
@@ -179,7 +163,11 @@ h1{
 .page-header {
     margin-top: 1.5em;
     text-transform: uppercase;
-    color: black
+    color: #383838
+}
+
+#technologies-list {
+    margin-bottom: 250px;
 }
 
 #technologies-list li {
@@ -203,4 +191,49 @@ h1{
     margin:15px 0;
   }
 
+form {
+    width: 100%;
+}
 
+.portfolio-image {
+    background-color: #383838;
+    width: 100%;
+    height: 100%;
+}
+
+.porfolio-description {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row {
+    margin-bottom:50px;
+}
+
+.blog {
+    width: 80%;
+    float: right;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 3px dashed darkgray;
+    padding: 2px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #383838;
+}
+
+#fa-icon {
+    font-size: 40px;
+    padding: 5px;
+}
