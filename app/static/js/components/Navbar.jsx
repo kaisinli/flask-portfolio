@@ -41,17 +41,17 @@ class Navbar extends Component {
                                 </ Link>
                             </li>
                             <li>
-                                <a href="https://github.com/kaisinli/" id="fa-icon" target="blank">
+                                <a href="https://github.com/kaisinli/" id="github" target="_blank">
                                     <i className="fa fa-github" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/kaisin-li/" id="fa-icon" target="blank">
+                                <a href="https://www.linkedin.com/in/kaisin-li/" id = "linkedin" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>
-                                <a id="nav-resume" href="https://goo.gl/P3RgDt" target="blank">Resume</a>
+                                <a id="nav-resume" href="https://goo.gl/P3RgDt" target="_blank">Resume</a>
                             </li>
                         </ul>
                     </div>
