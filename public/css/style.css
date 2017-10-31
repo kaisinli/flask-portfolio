@@ -86,7 +86,7 @@ a:hover {
     margin: 0;
 }
 
-@media(min-width:768px) {
+@media(min-width:800px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -118,7 +118,7 @@ a:hover {
     }
 }
 
-#about-background {
+#home-background {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -126,11 +126,11 @@ a:hover {
     min-width: 100%;
     min-height: 100%;
     transform: translateX(-50%) translateY(-50%);
-    background-image: url("../images/about.png");
+    background-image: url("../images/home.png");
     background-size: cover;
 }
 
-#about {
+#home {
     float: right;
     max-width: 600px;
     min-width: 300px;
@@ -147,14 +147,14 @@ h1{
     color:white
 }
 
-#about p{
+#home p{
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
     color: white;
 }
 
-#about-link{
+#home-link{
     display: block;
     color: white;
     background:rgba(0,0,0,0.7);
@@ -166,7 +166,15 @@ h1{
     text-decoration: none;
 }
 
-#about-link:hover{
+#home-link a{
+    color: white;
+}
+
+#home-link a:hover{
+    color: darkturquoise;
+}
+
+#home-link:hover{
     background:rgba(0,0,0,1);
 }
 
@@ -207,14 +215,19 @@ form {
 }
 
 .main-portfolio {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+}
+
+.about-main img{
+   width: 100%;
+   height: auto;
+   border-radius: 220px;
+   padding: 5px;
 }
 
 #projects-intro {
-    width: 80%;
+    width: 100%;
     height: auto;
-    background-color: powderblue;
-    border-radius: 15px;
     margin: 30px auto;
     padding: 15px;
 }
@@ -288,12 +301,13 @@ figure:active figcaption {
     height: 100%;
 }
 
-.built-with {
+.built-with, .porfolio-description {
     text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .porfolio-description {
-    text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -385,3 +399,6 @@ label {
     font-weight: 300;
 }
 
+h3 {
+    font-weight: 300;
+}

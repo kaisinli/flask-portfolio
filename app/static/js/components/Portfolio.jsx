@@ -6,11 +6,27 @@ class Portfolio extends Component {
         return (
             <div className="container main-portfolio">
                 <h1 className="page-header">Portfolio</h1>
-                <div id="technologies-list">
+                <div className="container-fluid bg-3 text-center projects" id="technologies-list">
+                    <div className="row">
+                        <h3>&lt; Skills &gt;</h3>
+                        <div className="col-md-3 indiv-skill-set">
+                            tttt
+                        </div>
+                        <div className="col-md-3 indiv-skill-set">
+                            tttt
+                        </div>
+                        <div className="col-md-3 indiv-skill-set">
+                            tttt
+                        </div>
+                        <div className="col-md-3 indiv-skill-set">
+                            tttt
+                        </div>
+                    </div>
                 </div>
+                <hr />
                 <div className="container-fluid bg-3 text-center projects">
                     <div id="projects-intro">
-                        <h3>Projects</h3>
+                        <h3>&lt; Projects &gt;</h3>
                         <h4>Hover or click (if you're on mobile) on images for GitHub and demo links :)</h4>
                     </div>
                     <div className="row">
@@ -39,7 +55,7 @@ class Portfolio extends Component {
                                 </figcaption>
                             </figure>
                             <h3>mercury</h3>
-                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, OAuth, Plaid API, Nodemailer, node-scheduler</p>
+                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth, Plaid API, Nodemailer, node-scheduler</p>
                             <p className="porfolio-description">A full stack web app that users can </p>
                         </div>
                     </div>
@@ -55,7 +71,7 @@ class Portfolio extends Component {
                                 </figcaption>
                             </figure>
                             <h3>say what</h3>
-                            <p className="built-with: PosgreSQL"><b>Built with: </b></p>
+                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, Google Cloud Natural Language API, Mozilla Web Speech API</p>
                         </div>
                         <div className="col-md-6 indiv-project">
                             <figure id="bitesandbites">
@@ -68,7 +84,7 @@ class Portfolio extends Component {
                                 </figcaption>
                             </figure>
                             <h3>bits and bites</h3>
-                            <p className="built-with"><b>Built with: </b></p>
+                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth</p>
                         </div>
                     </div>
                     <div className="row">

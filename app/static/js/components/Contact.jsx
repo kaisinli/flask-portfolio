@@ -5,20 +5,20 @@ class Contact extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="page-header">contact me</h1>
+                <h1 className="page-header">contact</h1>
                 <div className="row contact-container" >
                     <div className="col-4" id="contact-form">
                         <form method="POST" action="http://formspree.io/kaisinli12@gmail.com">
                             <div className="form-group">
-                                <label for="name">Name</label>
+                                <label name="name">Name</label>
                                 <input type="text" placeholder="Name" required autoFocus />
                             </div>
                             <div className="form-group">
-                                <label for="email">Email address</label>
+                                <label name="email">Email address</label>
                                 <input type="email" placeholder="name@example.com" required />
                             </div>
                             <div className="form-group">
-                                <label for="message">Message</label>
+                                <label name="message">Message</label>
                                 <textarea className="form-control" rows="7" required></textarea>
                             </div>
                             <button class="btn btn-lg btn-primary" id = "form-submit" type="submit"> <i className="fa fa-paper-plane" aria-hidden="true"></i>Send</button>

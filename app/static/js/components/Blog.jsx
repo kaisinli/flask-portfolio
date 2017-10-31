@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Script from 'react-load-script'
 
 class Blog extends Component {
 

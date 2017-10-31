@@ -4,13 +4,14 @@ import { Link } from 'react-router';
 class Home extends Component {
     render() {
         return (
-                       <div>
+            <div>
                 <div>
-                    <div id="about-background">
-                        <div id="about">
+                    <div id="home-background">
+                        <div id="home">
                             <h1>Hello, I'm Kaisin</h1>
-                            <p>I make things with code. Check out some of my work!</p>
-                            <p id="about-link"><Link to = "/portfolio">Portfolio</Link></p>
+                            <p>I am a Software Engineer based in New York. </p>
+                            <p>Check out my works and let's work together!</p>
+                            <p id="home-link"><Link to="/about">Bio</Link></p>
                         </div>
                     </div>
                 </div>
