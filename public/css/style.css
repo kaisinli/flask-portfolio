@@ -65,7 +65,7 @@ a:hover {
 
 .navbar-default.navbar-shrink #linkedin,
 .navbar-default.navbar-shrink #github {
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 #nav-resume {
@@ -86,7 +86,7 @@ a:hover {
     margin: 0;
 }
 
-@media(min-width:800px) {
+@media(min-width:770px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -118,28 +118,6 @@ a:hover {
     }
 }
 
-#home-background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translateX(-50%) translateY(-50%);
-    background-image: url("../images/home.png");
-    background-size: cover;
-}
-
-#home {
-    float: right;
-    max-width: 600px;
-    min-width: 300px;
-    margin: 100px;
-    background-color: rgba(105,105,105, 0.9);
-    padding: 4rem;
-    overflow-y: scroll;
-}
-
 h1{
     margin: 0;
     margin-bottom: 15px;
@@ -147,47 +125,35 @@ h1{
     color:white
 }
 
-#home p{
+#about-picture{
+    margin-bottom:50px;
+}
+
+#about{
     font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: white;
 }
 
-#home-link{
-    display: block;
-    color: white;
-    background:rgba(0,0,0,0.7);
-    padding: 5px;
-    transition: .6s background; 
-    border: none; 
-    margin: 1rem auto;
-    text-align: center;
-    text-decoration: none;
+br {
+    line-height: 40px;
+    padding-right: 100px;
 }
 
-#home-link a{
-    color: white;
-}
-
-#home-link a:hover{
-    color: darkturquoise;
-}
-
-#home-link:hover{
-    background:rgba(0,0,0,1);
+#signature{
+    float: right;
+    padding-right: 80px;
 }
 
 .page-header {
     margin-top: 1.5em;
-    text-transform: uppercase;
     color: #383838
 }
 
+.page-header,
 li {
     list-style-type: none;
 }
 
+.page-header,
 .list-heading {
     text-transform: uppercase;
 }
@@ -218,11 +184,15 @@ form {
   margin-bottom: 80px;
 }
 
-.about-main img{
+#about-main img{
    width: 100%;
    height: auto;
-   border-radius: 220px;
+   border-radius: 500px;
    padding: 5px;
+}
+
+#about-main {
+    margin-bottom:20px;
 }
 
 #projects-intro {
@@ -232,13 +202,13 @@ form {
     padding: 15px;
 }
 
-#projects-intro h3,
+#projects-intro h2,
 #projects-intro h4 {
     padding: 0;
     margin: 0;
 }
 
-#projects-intro h3 {
+#projects-intro h2 {
     margin-bottom: 10px;
     height: auto
 }
@@ -281,7 +251,7 @@ figcaption {
   text-align: center;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
 }
 
 figure:hover figcaption,
@@ -313,7 +283,7 @@ figure:active figcaption {
 }
 
 .indiv-project {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .indiv-project h3{
@@ -339,8 +309,13 @@ iframe{
     border: none; 
 }
 
-.fa-icon {
+.fa-icon,
+#lets-talk {
     color: turquoise;
+}
+
+#lets-talk:hover {
+    color: darkturquoise;
 }
 
 .contact-container {
@@ -389,12 +364,12 @@ textarea {
 #contact-other-description {
     font-size: 15px;
     font-weight: bold;
-    color: #ff66b3;
+    color: rgba(0,0,0,0.8);
     padding: 0;
 }
 
 label {
-    color: darkgray;
+    color: gray;
     font-size: 30px;
     font-weight: 300;
 }
@@ -402,3 +377,11 @@ label {
 h3 {
     font-weight: 300;
 }
+
+.indiv-skill-set h4 {
+    background-color: rgba(175, 238, 238,.4);
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 200;
+}
+

@@ -24,11 +24,6 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbar-in-collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li >
-                                <Link to='/about'>
-                                    About
-                                </ Link>
-                            </li>
-                            <li >
                                 <Link to='/portfolio'>
                                     Portfolio
                                 </ Link>
@@ -43,6 +38,16 @@ class Navbar extends Component {
                                 <Link to='/contact'>
                                     Contact
                                 </ Link>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/kaisinli/" id="github" target="_blank">
+                                    <i className="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/kaisin-li/" id="linkedin" target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
                             </li>
                             <li>
                                 <a id="nav-resume" href="https://goo.gl/P3RgDt" target="_blank">Resume</a>

@@ -8,26 +8,52 @@ class Portfolio extends Component {
                 <h1 className="page-header">Portfolio</h1>
                 <div className="container-fluid bg-3 text-center projects" id="technologies-list">
                     <div className="row">
-                        <h3>&lt; Skills &gt;</h3>
+                        <h2><b>&lt; Skills &gt;</b></h2>
                         <div className="col-md-3 indiv-skill-set">
-                            tttt
+                            <h4>Languages</h4>
+                            <nav>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                            </nav>
                         </div>
                         <div className="col-md-3 indiv-skill-set">
-                            tttt
+                            <h4>Backend</h4>
+                            <nav>
+                                <li>PostgreSQL</li>
+                                <li>MySQL</li>
+                                <li>sqlite</li>
+                                <li>Sequelize</li>
+                                <li>SQLAlchemy</li>
+                                <li>ExpressJS</li>
+                                <li>Flask</li>
+                            </nav>
                         </div>
                         <div className="col-md-3 indiv-skill-set">
-                            tttt
+                            <h4>Frontend</h4>
+                            <nav>
+                                <li>React/Redux</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Ajax</li>
+                            </nav>
                         </div>
                         <div className="col-md-3 indiv-skill-set">
-                            tttt
+                            <h4>Also Experienced In</h4>
+                            <nav>
+                                <li>AWS</li>
+                                <li>Mocha/Chai</li>
+                                <li>Git</li>
+                                <li>Webpack</li>
+                            </nav>
                         </div>
                     </div>
                 </div>
                 <hr />
                 <div className="container-fluid bg-3 text-center projects">
                     <div id="projects-intro">
-                        <h3>&lt; Projects &gt;</h3>
-                        <h4>Hover or click (if you're on mobile) on images for GitHub and demo links :)</h4>
+                        <h2><b>&lt; Projects &gt;</b></h2>
+                        <h3>Hover or click (if you're on mobile) on images for GitHub and demo links :)</h3>
                     </div>
                     <div className="row">
                         <div className="col-md-6 indiv-project">
@@ -42,7 +68,7 @@ class Portfolio extends Component {
                             </figure>
                             <h3>evertab</h3>
                             <p className="built-with"><b>Built with: </b>jQuery, localStorage</p>
-                            <p className="porfolio-description">A Chrome new tab page that replaces the default page with the most recent post of any (up to two) public Instagram accounts. Perfect for those who don't have an Instagram accounr and still want to follow Instagram accounts.</p>
+                            <p className="porfolio-description">A Chrome extension that replaces the default page with the most recent post of any (up to two) public Instagram accounts. Perfect for users who don't have an Instagram account and still want to follow Instagram accounts.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
                             <figure id="mercury">
@@ -56,7 +82,7 @@ class Portfolio extends Component {
                             </figure>
                             <h3>mercury</h3>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth, Plaid API, Nodemailer, node-scheduler</p>
-                            <p className="porfolio-description">A full stack web app that users can </p>
+                            <p className="porfolio-description">A full stack web app aimed at increasing budgeting efficiency. It allows users to link their bank acocunts and view their transactions organized by categories. Users can also create custom budgets and Mercury will compare them to their actual spendings.</p>
                         </div>
                     </div>
                     <div className="row">
@@ -72,6 +98,7 @@ class Portfolio extends Component {
                             </figure>
                             <h3>say what</h3>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, Google Cloud Natural Language API, Mozilla Web Speech API</p>
+                            <p className="porfolio-description">A fun app that takes a text or audio input and returns a sentiment score and Wikipedia links to people and places mentioned in the input. Great for testing neutrality of news articles and learn about their subject matter through Wikipedia.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
                             <figure id="bitesandbites">
@@ -85,6 +112,7 @@ class Portfolio extends Component {
                             </figure>
                             <h3>bits and bites</h3>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth</p>
+                            <p className="porfolio-description">An full stack eCommerce site that "sells" software-themed cafe items. Enjoy the fun punny product names! </p>
                         </div>
                     </div>
                     <div className="row">
@@ -98,6 +126,7 @@ class Portfolio extends Component {
                                 </figcaption>
                             </figure>
                             <h3>tech talk: how does rtb work?</h3>
+                            <p className="porfolio-description">In this presentation, I steped through the basic process of ad serving through Real Time Bidding. Click above to check it out on YouTube.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
                             <figure id="mercury">
@@ -108,11 +137,11 @@ class Portfolio extends Component {
                                     </nav>
                                 </figcaption>
                             </figure>
-                            <h4>GitHub my other projects on GitHub!</h4>
+                            <h3>Check out my other projects on GitHub!</h3>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }
