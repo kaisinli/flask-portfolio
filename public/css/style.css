@@ -65,7 +65,12 @@ a:hover {
 
 .navbar-default.navbar-shrink #linkedin,
 .navbar-default.navbar-shrink #github {
-    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.navbar-shrink #linkedin,
+.navbar-shrink #github {
+    padding-left: 15px;
 }
 
 #nav-resume {
@@ -198,7 +203,7 @@ form {
 #projects-intro {
     width: 100%;
     height: auto;
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 15px;
 }
 
@@ -217,46 +222,11 @@ form {
     font-weight: 200;
 }
 
-figure{
+.indiv-project img{
   position: relative;
   background-size: cover;
   text-align: center;
   margin: 0 5px 10px;
-}
-
-figure nav{
-  margin: 0;
-  position: relative;
-  top: 45%;
-  transform: translateY(-50%);
-  color: white;
-  opacity: 1;
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  transition: 0.6s;
-}
-
-figure li {
-    margin: 10px;
-}
-
-figcaption { 
-  position: absolute; 
-  color: white; 
-  opacity: 0;
-  bottom: 0; 
-  left: 0;
-  transition: all 0.3s ease;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
-}
-
-figure:hover figcaption,
-figure:active figcaption {
-  opacity: 1;
 }
 
 .project-link,
@@ -277,6 +247,7 @@ figure:active figcaption {
     padding-right: 20px;
 }
 
+.built-with,
 .porfolio-description {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -284,6 +255,19 @@ figure:active figcaption {
 
 .indiv-project {
     margin-bottom: 20px;
+}
+
+.indiv-project a {
+    color: rgba(0,0,0,0.8);
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(175,238,238,0.5);
+    border-radius: 10px;
+}
+
+.indiv-project a:hover {
+    color: darkturquoise;
 }
 
 .indiv-project h3{

@@ -53,91 +53,54 @@ class Portfolio extends Component {
                 <div className="container-fluid bg-3 text-center projects">
                     <div id="projects-intro">
                         <h2><b>&lt; Projects &gt;</b></h2>
-                        <h3>Hover or click (if you're on mobile) on images for GitHub and demo links :)</h3>
                     </div>
                     <div className="row">
                         <div className="col-md-6 indiv-project">
-                            <figure id="evertab">
-                                <img className="portfolio-image" src="public/images/evertab.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://github.com/kaisinli/evertab" target="a" className="project-link">GitHub</a></li>
-                                        <li><a href="https://chrome.google.com/webstore/detail/evertab/amkobgpmpingffenafbjbhomdppoagba" target="_blank" className="project-link">Demo</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/evertab.png" />
                             <h3>evertab</h3>
+                            <a href="https://github.com/kaisinli/evertab" target="a" className="project-link">GitHub</a>
+                            <a href="https://chrome.google.com/webstore/detail/evertab/amkobgpmpingffenafbjbhomdppoagba" target="_blank" className="project-link">Demo</a>
                             <p className="built-with"><b>Built with: </b>jQuery, localStorage</p>
                             <p className="porfolio-description">A Chrome extension that replaces the default page with the most recent post of any (up to two) public Instagram accounts. Perfect for users who don't have an Instagram account and still want to follow Instagram accounts.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
-                            <figure id="mercury">
-                                <img className="portfolio-image" src="public/images/mercury.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://github.com/kaisinli/mercury" target="_blank" className="project-link">GitHub</a></li>
-                                        <li><a href="http://appmercury.herokuapp.com/" target="_blank" className="project-link">Demo</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/mercury.png" />
                             <h3>mercury</h3>
+                            <a href="https://github.com/kaisinli/mercury" target="_blank" className="project-link">GitHub</a>
+                            <a href="http://appmercury.herokuapp.com/" target="_blank" className="project-link">Demo</a>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth, Plaid API, Nodemailer, node-scheduler</p>
                             <p className="porfolio-description">A full stack web app aimed at increasing budgeting efficiency. It allows users to link their bank acocunts and view their transactions organized by categories. Users can also create custom budgets and Mercury will compare them to their actual spendings.</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-6 indiv-project">
-                            <figure id="saywhat">
-                                <img className="portfolio-image" src="public/images/saywhat.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://github.com/kaisinli/SayWhat" target="_blank" className="project-link">GitHub</a></li>
-                                        <li><a href="http://young-depths-30361.herokuapp.com/" target="_blank" className="project-link">Demo</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/saywhat.png" />
                             <h3>say what</h3>
+                            <a href="https://github.com/kaisinli/SayWhat" target="_blank" className="project-link">GitHub</a>
+                            <a href="http://young-depths-30361.herokuapp.com/" target="_blank" className="project-link">Demo</a>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, Google Cloud Natural Language API, Mozilla Web Speech API</p>
                             <p className="porfolio-description">A fun app that takes a text or audio input and returns a sentiment score and Wikipedia links to people and places mentioned in the input. Great for testing neutrality of news articles and learn about their subject matter through Wikipedia.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
-                            <figure id="bitesandbites">
-                                <img className="portfolio-image" src="public/images/bitsandbites.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://github.com/kaisinli/bits-and-bites" target="_blank" className="project-link">GitHub</a></li>
-                                        <li><a href="http://bits-and-bytes.herokuapp.com/" target="_blank" className="project-link">Demo</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/bitsandbites.png" />
                             <h3>bits and bites</h3>
+                            <a href="https://github.com/kaisinli/bits-and-bites" target="_blank" className="project-link">GitHub</a>
+                            <a href="http://bits-and-bytes.herokuapp.com/" target="_blank" className="project-link">Demo</a>
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth</p>
                             <p className="porfolio-description">An full stack eCommerce site that "sells" software-themed cafe items. Enjoy the fun punny product names! </p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-md-6 indiv-project">
-                            <figure id="evertab">
-                                <img className="portfolio-image" src="public/images/rtb.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://www.youtube.com/watch?v=0pAseiuSzYw&t=79s" target="_blank" className="project-link">YouTube</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/rtb.png" />
                             <h3>tech talk: how does rtb work?</h3>
+                            <a href="https://www.youtube.com/watch?v=0pAseiuSzYw&t=79s" target="_blank" className="project-link">YouTube</a>
                             <p className="porfolio-description">In this presentation, I steped through the basic process of ad serving through Real Time Bidding. Click above to check it out on YouTube.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
-                            <figure id="mercury">
-                                <img className="portfolio-image" src="public/images/github.png" />
-                                <figcaption>
-                                    <nav>
-                                        <li><a href="https://github.com/kaisinli/" target="_blank" className="project-link">GitHub</a></li>
-                                    </nav>
-                                </figcaption>
-                            </figure>
+                            <img className="portfolio-image" src="public/images/github.png" />
                             <h3>Check out my other projects on GitHub!</h3>
+                            <a href="https://github.com/kaisinli/" target="_blank" className="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
