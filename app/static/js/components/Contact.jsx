@@ -19,7 +19,7 @@ class Contact extends Component {
                             </div>
                             <div className="form-group">
                                 <label name="message">Message</label>
-                                <textarea className="form-control" placeholder="Just saying hi :)" rows="7" required></textarea>
+                                <textarea className="form-control" placeholder="Just saying hi :)" rows="5" required></textarea>
                             </div>
                             <button class="btn btn-lg btn-primary" id = "form-submit" type="submit"> <i className="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
                             <p id="contact-other-description">Other ways to get in touch:</p>
