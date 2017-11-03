@@ -3,12 +3,12 @@ from flask import Flask, render_template
 
 
 @app.route('/')
+@app.route('/portfolio')
+@app.route('/blog')
+@app.route('/contact')
 def index():
     return render_template("index.html")
 
-###
-# The functions below should be applicable to all Flask apps.
-###
 
 @app.errorhandler(404)
 def page_not_found(error):
