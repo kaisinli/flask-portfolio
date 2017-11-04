@@ -50,7 +50,7 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a id="nav-resume" href="https://drive.google.com/open?id=0B1l3YuhgCB5PYlhETm14UnJad0E" target="_blank">Resume</a>
+                                <a id="nav-resume" href="https://drive.google.com/open?id=0B1l3YuhgCB5PUEp4SVNyaTczQXM" target="_blank">Resume</a>
                             </li>
                         </ul>
                     </div>
