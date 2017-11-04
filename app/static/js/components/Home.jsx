@@ -12,12 +12,12 @@ class Home extends Component {
                             <img src="public/images/about.png" />
                         </div>
                         <div className="col-sm-8">
-                            <p id="about">I'm Kaisin and I am a software engineer based in New York!</p>
-                            <p>I am experienced in full-stack application development and I love building apps that are both useful and fun. I treasure creativity and collaboration and I love what I do!</p>
-                            <p>Before pursuing my passion of software engineering, I was in advertising as an analyst working with intensive data analysis. It was during my time at Symphony Advanced Media that I realized I want to pursuing software engineering, because I want to build things in this "anything-can-happen" world.</p>
-                            <p>When I not programming, I like to explore new places, from new cities to new corner stores. I also hold a B.S. in Chemical Engineering from the University at Buffalo.</p>
-                            <p>Having recently graduated from Full Stack Academy, one of the best Software Engineering bootcamps in the U.S., I am currently looking for a full-time potisition and/or collaboration opportinies! <Link to='/portfolio' id="lets-talk">Check out my works</Link> and <Link to='/contact' id="lets-talk">let's talk</Link>!</p>
-                            <p><div id="signature"><i class="fa fa-heart" aria-hidden="true"></i> Kaisin</div></p>
+                            <p className="about">I'm Kaisin and I am a software engineer based in New York!</p>
+                            <p className="about">I am experienced in full-stack application development and I love building apps that are both useful and fun. I treasure creativity and collaboration and I love what I do!</p>
+                            <p className="about">Before pursuing my passion of software engineering, I was in advertising as an analyst working with intensive data analysis. It was during my time at Symphony Advanced Media that I realized I want to pursuing software engineering, because I want to build things in this "anything-can-happen" world.</p>
+                            <p className="about">When I not programming, I like to explore new places, from new cities to new corner stores. I also hold a B.S. in Chemical Engineering from the University at Buffalo.</p>
+                            <p className="about">Having recently graduated from Full Stack Academy, one of the best Software Engineering bootcamps in the U.S., I am currently looking for a full-time potisition and/or collaboration opportinies! <Link to='/portfolio' id="lets-talk">Check out my works</Link> and <Link to='/contact' id="lets-talk">let's talk</Link>!</p>
+                            <p className="about"><div id="signature"><i class="fa fa-heart" aria-hidden="true"></i> Kaisin</div></p>
                         </div>
                     </div>
                 </div>
