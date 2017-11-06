@@ -182,10 +182,6 @@ li {
     color: darkturquoise; 
  } 
 
-form {
-    width: 100%;
-}
-
 .main-portfolio {
   margin-bottom: 80px;
 }
@@ -303,15 +299,6 @@ iframe{
     color: darkturquoise;
 }
 
-.contact-container {
-    width: 70%;
-    margin: 0 auto;
-}
-
-form {
-    margin-bottom: 60px;
-}
-
 input {
     width: 100%;
     border-radius: 4px;
@@ -321,36 +308,8 @@ input {
     margin-bottom: 15px;
 }
 
-#form-submit {
-    float: right;
-    width: 100%;
-    margin-bottom: 30px;
-    border: none;
-    background-color: darkturquoise;
-}
-
-#form-submit:hover{
-    background-color: teal
-}
-
-textarea {
-    resize: vertical;
-}
-
 .fa-paper-plane {
     padding-right: 15px;
-}
-
-.contact-other{
-    margin-top: 2000px;
-    width: 100%;
-}
-
-#contact-other-description {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgba(0,0,0,0.8);
-    padding: 0;
 }
 
 label {
@@ -369,4 +328,35 @@ h3 {
     padding: 3px;
     font-weight: 200;
 }
+
+#contact-list {
+    width: 60%;
+    align-content: center;
+    margin: 0;
+}
+
+#contact-list h3{
+    margin-bottom: 30px;
+}
+
+#contact-list a,
+#contact-list a:focus,
+#contact-list a:active {
+    text-decoration: none;
+    color: rgba(0,0,0,0.8)
+}
+
+#contact-list a:hover{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+.emailto {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+
 

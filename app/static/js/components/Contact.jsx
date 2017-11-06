@@ -6,35 +6,24 @@ class Contact extends Component {
         return (
             <div className="container">
                 <h1 className="page-header">contact</h1>
-                <div className="row contact-container" >
-                    <div className="col-4" id="contact-form">
-                        <form method="POST" action="http://formspree.io/kaisinli12@gmail.com">
-                            <div className="form-group">
-                                <label name="name">Name</label>
-                                <input type="text" placeholder="Name" required autoFocus />
-                            </div>
-                            <div className="form-group">
-                                <label name="email">Email address</label>
-                                <input type="email" placeholder="name@example.com" required />
-                            </div>
-                            <div className="form-group">
-                                <label name="message">Message</label>
-                                <textarea className="form-control" placeholder="Just saying hi :)" rows="5" required></textarea>
-                            </div>
-                            <button class="btn btn-lg btn-primary" id = "form-submit" type="submit"> <i className="fa fa-paper-plane" aria-hidden="true"></i>Send</button>
-                            <p id="contact-other-description">Other ways to get in touch:</p>
-                            <div>
-                                <a href="https://angel.co/kaisin-li" id="angellist" target="_blank">
-                                    <i className="fa fa-angellist" aria-hidden="true"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/kaisin-li/" id="linkedin" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                                </a>
-                                <a href="mailto:kaisinli12@gmail.com" id="email" target="_blank">
-                                    <i className="fa fa-envelope" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </form>
+                <div id = "contact-list">
+                    <h3>I'm easy to find! Ways to get in touch:</h3>
+                    <div>
+                        <p className="emailto">
+                            <a href="mailto:kaisinli12@gmail.com" id="email" target="_blank">
+                                <i className="fa fa-envelope" aria-hidden="true"></i> kaisinli12@gmail.com
+                            </a>
+                        </p>
+                        <p className="emailto">
+                            <a href="https://angel.co/kaisin-li" id="angellist" target="_blank">
+                                <i className="fa fa-angellist" aria-hidden="true"></i> AngelList
+                            </a>
+                        </p>
+                        <p className="emailto">
+                            <a href="https://www.linkedin.com/in/kaisin-li/" id="linkedin" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
