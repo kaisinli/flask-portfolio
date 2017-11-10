@@ -33,20 +33,14 @@ class Navbar extends Component {
                                     Blog
                                 </Link>
                             </li>
-
                             <li>
                                 <Link to='/contact'>
-                                    Contact
-                                </ Link>
+                                    contact
+                                </Link>
                             </li>
                             <li>
                                 <a href="https://www.github.com/kaisinli/" id="github" target="_blank">
                                     <i className="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/kaisin-li/" id="linkedin" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>

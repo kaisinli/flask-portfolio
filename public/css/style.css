@@ -329,10 +329,6 @@ h3 {
     font-weight: 200;
 }
 
-#contact-list {
-    margin: 5%;
-}
-
 #contact-list h3{
     margin-bottom: 30px;
 }
@@ -341,7 +337,8 @@ h3 {
 #contact-list a:focus,
 #contact-list a:active {
     text-decoration: none;
-    color: rgba(0,0,0,0.8)
+    color: rgba(0,0,0,0.8);
+    font-size: 35px;
 }
 
 #contact-list a:hover{
@@ -354,7 +351,3 @@ h3 {
     font-weight: 100;
     margin: 0;
 }
-
-
-
-

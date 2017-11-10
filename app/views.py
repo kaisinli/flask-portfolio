@@ -5,10 +5,10 @@ from flask import Flask, render_template
 @app.route('/')
 @app.route('/portfolio')
 @app.route('/blog')
+@app.route('/nottech')
 @app.route('/contact')
 def index():
     return render_template("index.html")
-
 
 @app.errorhandler(404)
 def page_not_found(error):
