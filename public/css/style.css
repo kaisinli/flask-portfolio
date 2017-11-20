@@ -85,9 +85,10 @@ a:hover {
 }
 
 #logo-name{
-    height: 100%;
-    padding: 5px;
+    height: 1.5em;
     width: auto;
+    padding: 0;
+    margin: 0;
 }
 
 @media(min-width:770px) {
@@ -112,7 +113,7 @@ a:hover {
         border-radius: 3px;
     }
 
-    .navbar-default .navbar-shrink {
+    .navbar-default.navbar-shrink {
         padding: 5px 0;
         background-color: rgba(225,225,225,0.85);
     }
