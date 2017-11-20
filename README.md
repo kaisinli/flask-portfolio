@@ -1,5 +1,8 @@
+## About
+This is a personal portfolio web app written in Python-Flask for the back end and React-JS for the front end.
+
 ## Instructions
-As always ensure you create a virtual environment for this application and install
+First create a virtual environment for this application and install
 the necessary libraries from the `requirements.txt` file.
 
 ```
