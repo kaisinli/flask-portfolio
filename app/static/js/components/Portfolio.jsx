@@ -81,22 +81,14 @@ class Portfolio extends Component {
                             <p className="built-with"><b>Built with: </b>Node.js, React, Express, Google Cloud Natural Language API, Mozilla Web Speech API</p>
                             <p className="porfolio-description">A fun app that takes a text or audio input and returns a sentiment score and Wikipedia links to people and places mentioned in the input. Great for testing neutrality of news articles and learn about their subject matter through Wikipedia.</p>
                         </div>
-                        <div className="col-md-6 indiv-project">
-                            <img className="portfolio-image" src="public/images/bitsandbites.png" />
-                            <h3>bits and bites</h3>
-                            <a href="https://github.com/kaisinli/bits-and-bites" target="_blank" className="project-link">GitHub</a>
-                            <a href="http://bits-and-bytes.herokuapp.com/" target="_blank" className="project-link">Demo</a>
-                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth</p>
-                            <p className="porfolio-description">An full stack eCommerce site that "sells" software-themed cafe items. Enjoy the fun punny product names! </p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 indiv-project">
+                         <div className="col-md-6 indiv-project">
                             <img className="portfolio-image" src="public/images/rtb.png" />
                             <h3>tech talk: how does rtb work?</h3>
                             <a href="https://www.youtube.com/watch?v=0pAseiuSzYw&t=79s" target="_blank" className="project-link">YouTube</a>
                             <p className="porfolio-description">In this presentation, I steped through the basic process of ad serving through Real Time Bidding. Click above to check it out on YouTube.</p>
                         </div>
+                    </div>
+                    <div className="row">
                         <div className="col-md-6 indiv-project">
                             <img className="portfolio-image" src="public/images/github.png" />
                             <h3>Check out my other projects on GitHub!</h3>
