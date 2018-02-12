@@ -1,5 +1,5 @@
 import React from 'react';
-import { IndexRoute, Router, Route, browserHistory } from 'react-router';
+import { IndexRoute, Router, Route, hashHistory } from 'react-router';
 
 import Main from './components/Main';
 import Home from './components/Home';
@@ -9,7 +9,7 @@ import NotTech from './components/NotTech';
 import Contact from './components/Contact';
 
 export default (
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
       <Route path='/' component={Main}>
         <IndexRoute component={Home}/>
         <Route path='/portfolio' component={Portfolio} />
