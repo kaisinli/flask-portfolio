@@ -44,7 +44,7 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a id="nav-resume" href="https://drive.google.com/open?id=0B1l3YuhgCB5PcmVXQlF2MjhCOGM" target="_blank">Resume</a>
+                                <a id="nav-resume" href="https://drive.google.com/file/d/0B1l3YuhgCB5PcmVXQlF2MjhCOGM/view?usp=sharing" target="_blank">Resume</a>
                             </li>
                         </ul>
                     </div>
