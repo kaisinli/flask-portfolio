@@ -41,7 +41,6 @@ class Portfolio extends Component {
                         <div className="col-md-3 indiv-skill-set">
                             <h4>Also Experienced In</h4>
                             <nav>
-                                <li>AWS</li>
                                 <li>Mocha/Chai</li>
                                 <li>Git</li>
                                 <li>Webpack</li>
@@ -64,24 +63,6 @@ class Portfolio extends Component {
                             <p className="porfolio-description">A Chrome extension that replaces the default page with the most recent post of any (up to two) public Instagram accounts. Perfect for users who don't have an Instagram account and still want to follow Instagram accounts.</p>
                         </div>
                         <div className="col-md-6 indiv-project">
-                            <img className="portfolio-image" src="public/images/mercury.png" />
-                            <h3>mercury</h3>
-                            <a href="https://github.com/kaisinli/mercury" target="_blank" className="project-link">GitHub</a>
-                            <a href="http://appmercury.herokuapp.com/" target="_blank" className="project-link">Demo</a>
-                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, PostgreSQL, Sequelize, OAuth, Plaid API, Nodemailer, node-scheduler</p>
-                            <p className="porfolio-description">A full stack web app aimed at increasing budgeting efficiency. It allows users to link their bank acocunts and view their transactions organized by categories. Users can also create custom budgets and Mercury will compare them to their actual spendings.</p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 indiv-project">
-                            <img className="portfolio-image" src="public/images/saywhat.png" />
-                            <h3>say what</h3>
-                            <a href="https://github.com/kaisinli/SayWhat" target="_blank" className="project-link">GitHub</a>
-                            <a href="http://young-depths-30361.herokuapp.com/" target="_blank" className="project-link">Demo</a>
-                            <p className="built-with"><b>Built with: </b>Node.js, React, Express, Google Cloud Natural Language API, Mozilla Web Speech API</p>
-                            <p className="porfolio-description">A fun app that takes a text or audio input and returns a sentiment score and Wikipedia links to people and places mentioned in the input. Great for testing neutrality of news articles and learn about their subject matter through Wikipedia.</p>
-                        </div>
-                         <div className="col-md-6 indiv-project">
                             <img className="portfolio-image" src="public/images/rtb.png" />
                             <h3>tech talk: how does rtb work?</h3>
                             <a href="https://www.youtube.com/watch?v=0pAseiuSzYw&t=79s" target="_blank" className="project-link">YouTube</a>
