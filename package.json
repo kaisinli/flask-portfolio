@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/kaisinli/flask-portfolio.git"
   },
-  "author": "",
+  "author": "Kaisin Li",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaisinli/flask-portfolio/issues"
