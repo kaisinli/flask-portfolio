@@ -19,5 +19,5 @@ $ python run.py
 
 Browse to http://0.0.0.0:8080
 
-To see the deployed vision, browse to kaisin.li
+To see the deployed vision, browse to kaisinli.com
 
