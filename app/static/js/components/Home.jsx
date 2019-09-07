@@ -13,8 +13,7 @@ class Home extends Component {
                         </div>
                         <div className="col-sm-8">
                             <p className="about">I'm Kaisin and I am a software engineer based in New York!</p>
-                            <p className="about">I am experienced in backend application development and I love building apps that are both useful and fun. I treasure creativity and collaboration and I love what I do!</p>
-                            <p className="about">When I am not programming, I like to explore new places, from new cities to new corner stores. I also hold a B.S. in Chemical Engineering from the University at Buffalo.</p>
+                            <p className="about">I am experienced in backend application development and I love building apps that are both useful and fun. I treasure creativity and collaboration and I love what I do! When I am not programming, I like to explore new places, from new cities to new corner stores. I also hold a B.S. in Chemical Engineering from the University at Buffalo.</p>
                             <p className="about">I am currently a Software Engineer @ Signafire. If you want to collaborate, <Link to='/portfolio' id="lets-talk">check out my work</Link> and <Link to='/contact' id="lets-talk">let's talk</Link>!</p>
                             <p className="about"><div id="signature"><i class="fa fa-heart" aria-hidden="true"></i> Kaisin</div></p>
                         </div>
