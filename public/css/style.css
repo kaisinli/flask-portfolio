@@ -291,11 +291,11 @@ iframe{
 }
 
 .fa-icon,
-#lets-talk {
+.lets-talk {
     color: turquoise;
 }
 
-#lets-talk:hover {
+.lets-talk:hover {
     color: darkturquoise;
 }
 

@@ -8,6 +8,7 @@ export default class Main extends Component {
             <div>
                 <Navbar />
                 {this.props.children}
+                {console.log(this.props,children)}
             </div>
         );
     }

@@ -19,12 +19,14 @@ class Portfolio extends Component {
                         <div className="col-md-3 indiv-skill-set">
                             <h4>Backend</h4>
                             <nav>
-                                <li>PostgreSQL</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
                                 <li>MySQL</li>
                                 <li>sqlite</li>
                                 <li>Sequelize</li>
-                                <li>SQLAlchemy</li>
+                                <li>PostgreSQL</li>
                                 <li>ExpressJS</li>
+                                <li>GraphQL</li>
                                 <li>Flask</li>
                             </nav>
                         </div>
